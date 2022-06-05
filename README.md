@@ -2,7 +2,7 @@
 
 ## Application de billetterie d'événements
 
-- L'objectif de cette application est de permettre à l’utilisateur d'accéderaux plusieurs événements valables dans sa ville ou bien pays et depouvoir acheter les billets
+- L'objectif de cette application est de permettre à l’utilisateur d'accéder aux plusieurs événements valables dans sa ville ou bien pays et de pouvoir acheter les billets
 
 ## Installation guide
 
