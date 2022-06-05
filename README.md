@@ -6,40 +6,12 @@
 
 ## Installation guide
 
-`https://github.com/marwane33/billetterie_backend.git`
-
-1.
-
 ```bash
+git clone https://github.com/marwane33/billetterie_backend.git
 cd  billetterie_backend
-```
-
-2.
-
-```bash
 pip install -r requirements.txt
-```
-
-3.
-
-```bash
 python3 manage.py makemigrations
-```
-
-4.
-
-```bash
 python3 manage.py migrate
-```
-
-5.
-
-```bash
 python3 manage.py createsuperuser
-```
-
-6.
-
-```bash
 python manage.py runserver
 ```
