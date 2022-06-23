@@ -1,6 +1,6 @@
 import os
-
 from billetterie_v2.settings.dev import SECRET_KEY
+import dj_database_url
 from .common import *
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -10,8 +10,5 @@ ALLOWED_HOSTS = ['mabilletterie-prod.herokuapp.com']
 SECRET_KEY = os.environ['SECRET_KEY']
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.config()
 }
