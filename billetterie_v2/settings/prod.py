@@ -12,7 +12,11 @@ DATABASES = {
     'default': dj_database_url.config()
 }
 
-STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dlxjpwigp',
+    'API_KEY': '238828169723339',
+    'API_SECRET': 'HxnDwjcNNWVmOHqNOd3uAJZ7wfk',
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.RawMediaCloudinaryStorage'
