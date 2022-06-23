@@ -1,5 +1,4 @@
 import os
-from billetterie_v2.settings.dev import SECRET_KEY
 import dj_database_url
 from .common import *
 
