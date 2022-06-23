@@ -16,9 +16,9 @@ class Theme(models.Model):
 
 
 class Customer(models.Model):
-    phone = models.CharField(max_length=255)
-    city = models.CharField(max_length=255)
-    country = models.CharField(max_length=255)
+    phone = models.CharField(max_length=255, null=True)
+    city = models.CharField(max_length=255, null=True)
+    country = models.CharField(max_length=255, null=True)
     user = models.OneToOneField(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
