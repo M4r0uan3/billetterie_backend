@@ -40,7 +40,7 @@ class EventAdmin(admin.ModelAdmin):
                     'inventory_status', 'theme', 'date']
     list_editable = ['unit_price']
     list_filter = ['theme', 'last_update', InventoryFilter]
-    list_per_page = 10
+    list_per_page = 100
     inlines = [EventImageInline]
     list_select_related = ['theme']
     search_fields = ['title']
