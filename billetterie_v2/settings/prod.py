@@ -14,9 +14,9 @@ DATABASES = {
 
 
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dlxjpwigp',
-    'API_KEY': '238828169723339',
-    'API_SECRET': 'HxnDwjcNNWVmOHqNOd3uAJZ7wfk',
+    'CLOUD_NAME': '<CLOUD_NAME>',
+    'API_KEY': '<API_KEY>',
+    'API_SECRET': '<API_SECRET>',
 }
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.RawMediaCloudinaryStorage'
